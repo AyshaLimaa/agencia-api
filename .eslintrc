@@ -1,0 +1,19 @@
+{
+
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+ "rules": {
+    "@typescript-eslint.io/rules/consistent-type-definitions": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+   "@typescript-eslint.io/rules/quotes": "off",
+   "@typescript-eslint/no-misused-promises":"off",
+   "@typescript-eslint.io/rules/return-await":"off",
+   "@typescript-eslint.io/rules/no-confusing-void-expression":"off"
+   
+
+   
+ }
+}
